@@ -1,6 +1,15 @@
 <?php
+/**
+ * @version		1.0.0
+ * @package		Akismet for Kunena
+ * @author		JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2014 JoomlaWorks Ltd. All rights reserved.
+ * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+ */
+
 // No direct access
-defined('_JEXEC') or die ;
+defined('_JEXEC') or die;
+
 /**
  * Akismet anti-comment spam service
  *
@@ -473,5 +482,3 @@ interface AkismetRequestFactory {
 
 	public function createRequestSender();
 }
-
-?>
