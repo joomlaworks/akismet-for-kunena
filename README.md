@@ -16,5 +16,9 @@ Copyright (c) 2006 - 2014 JoomlaWorks Ltd. All rights reserved.
 *(Last update: March 25th, 2014 - Version 1.0.0)*
 
 
+## INSTALL & UPGRADE
+Get the latest version of the plugin here: https://github.com/joomlaworks/Akismet-For-Kunena/archive/master.zip
+
+
 ## LEARN MORE
 Visit the AllVideos product page at: http://www.joomlaworks.net/allvideos
