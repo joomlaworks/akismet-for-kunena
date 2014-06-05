@@ -9,22 +9,40 @@ It's a completely automated way to protect your Kunena forum from spammers.
 
 [Get a free or commercial API key from akismet.com](https://akismet.com/plans/) and simply paste it in the plugin parameters. Don't forget to enable the plugin.
 
-**Akismet for Kunena** is a [Joomla!](http://www.joomla.org/) plugin developed by [JoomlaWorks](http://www.joomlaworks.net), released under the [GNU General Public License](http://www.gnu.org/copyleft/gpl.html).
 
-Copyright (c) 2006 - 2014 JoomlaWorks Ltd. All rights reserved.
-
-*(Last update: March 25th, 2014 - Version 1.0.0)*
+### FEATURES
+Integrates the Akismet antispam service into Kunena.
 
 
-## REQUIREMENTS
-This plugin requires Joomla! 2.5 or 3.x and Kunena 3.x.
+### DEMO & SHOWCASE
+A couple of Kunena based forums using this plugin for added protection against spammers:
+
+- K2 Community Forum - http://getk2.org/community
+- JoomlaWorks Forum - http://www.joomlaworks.net/forum
 
 
-## INSTALL & UPGRADE
-Get the latest version of the plugin here: https://github.com/joomlaworks/Akismet-For-Kunena/archive/master.zip
+### REQUIREMENTS
+This is a Kunena plugin for Joomla and the only basic requirements to use it are:
 
-Use the Joomla! installer to install the plugin for the first time or to upgrade to the newest version.
+- Kunena v3.x installed
+- Joomla 2.5 or 3.x installed
+- An API key from Akismet.com
 
 
-## LEARN MORE
-Visit the AllVideos product page at: http://www.joomlaworks.net/allvideos
+### LICENSE
+This is a Joomla extension developed by JoomlaWorks and released under the GNU/GPL v2 license.
+
+
+### ADDITIONAL INFO
+Some helpful links:
+
+- Kunena - http://www.kunena.org
+- Joomla - http://www.joomla.org
+
+If you want to provide feedback for this Joomla plugin, you may use the GitHub issue tracker here: https://github.com/joomlaworks/Akismet-For-Kunena/issues
+
+
+## DOWNLOAD
+You can grab the latest release here: http://goo.gl/3zTv3x (v1.0.0)
+
+To install this Joomla plugin, download the file in your computer and then head over to the Joomla installer and choose to upload the file you just downloaded.
