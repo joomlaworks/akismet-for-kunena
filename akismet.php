@@ -8,7 +8,7 @@
  */
 
 // No direct access
-defined('_JEXEC') or die;
+defined('_JEXEC') or die ;
 
 class plgKunenaAkismet extends JPlugin
 {
@@ -18,6 +18,11 @@ class plgKunenaAkismet extends JPlugin
 		$this->loadLanguage('plg_kunena_akismet.sys');
 		if ($context == 'com_kunena.KunenaForumMessage' && $this->params->get('apiKey'))
 		{
+			$user = JFactory::getUser();
+			if ($user->authorise('core.login.admin'))
+			{
+				return true;
+			}
 			require_once JPATH_SITE.'/plugins/kunena/akismet/Akismet.class.php';
 			$user = JFactory::getUser();
 			$akismet = new Akismet(JURI::root(false), $this->params->get('apiKey'));
