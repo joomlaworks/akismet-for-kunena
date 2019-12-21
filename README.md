@@ -1,7 +1,7 @@
 Akismet for Kunena
 =========
 
-**Akismet for Kunena** integrates the popular antispam service [Akismet.com](https://akismet.com/) with [Kunena 3.x](https://www.kunena.org/).
+**Akismet for Kunena** integrates the popular antispam service [Akismet.com](https://akismet.com/) with [Kunena](https://www.kunena.org/) (v3.x or newer).
 
 Unlike other antispam services, Akismet does not present the visitor with an ugly 'captcha'. Instead it scans the visitor's post, name and email address and runs hundreds of tests to determine whether it's spam or not.
 
