@@ -25,6 +25,8 @@ This is a Joomla extension developed by JoomlaWorks and released under the GNU/G
 
 
 ## DOWNLOAD
-You can grab the latest release here: http://goo.gl/3zTv3x (v1.1.0)
+You can grab the latest release (v1.1.0 - December 21st, 2019) here:
+
+https://www.joomlaworks.net/downloads/?f=plg_akismet_for_kunena-v1.1.0_j2.5-3.x.zip
 
 To install this Joomla plugin, download the file in your computer and then head over to the Joomla installer and choose to upload the file you just downloaded.
