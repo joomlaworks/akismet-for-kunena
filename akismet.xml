@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="plugin" group="kunena" method="upgrade">
-	<name>plg_kunena_akismet</name>
-	<author>JoomlaWorks</author>
-	<creationDate>March 25th, 2014</creationDate>
-	<copyright>Copyright (c) 2006 - 2014 JoomlaWorks Ltd. All rights reserved.</copyright>
-	<authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
-	<authorUrl>www.joomlaworks.net</authorUrl>
-	<version>1.0.0</version>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<description>PLG_KUNENA_AKISMET_DESCRIPTION</description>
-	<files>
-		<filename plugin="akismet">akismet.php</filename>
-		<filename>Akismet.class.php</filename>
-	</files>
-	<languages>
-		<language tag="en-GB">en-GB.plg_kunena_akismet.sys.ini</language>
-	</languages>
-	<config>
-		<fields name="params">
-			<fieldset name="basic">
-				<field name="apiKey" type="text" default="" label="PLG_KUNENA_AKISMET_API_KEY" />
-			</fieldset>
-		</fields>
-	</config>
+    <name>plg_kunena_akismet</name>
+    <author>JoomlaWorks</author>
+    <creationDate>December 21st, 2019</creationDate>
+    <copyright>Copyright (c) 2006 - 2019 JoomlaWorks Ltd. All rights reserved.</copyright>
+    <authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
+    <authorUrl>https://www.joomlaworks.net</authorUrl>
+    <version>1.1.0</version>
+    <license>https://www.gnu.org/licenses/gpl.html</license>
+    <description>PLG_KUNENA_AKISMET_DESCRIPTION</description>
+    <files>
+        <filename plugin="akismet">akismet.php</filename>
+        <filename>Akismet.class.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.plg_kunena_akismet.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="apiKey" type="text" default="" label="PLG_KUNENA_AKISMET_API_KEY" />
+            </fieldset>
+        </fields>
+    </config>
 </extension>
